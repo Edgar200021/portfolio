@@ -6,7 +6,7 @@ import telegram from '../assets/icons/telegram.svg'
 import discord from '../assets/icons/discord.svg'
 import email from '../assets/icons/email.svg'
 
-import drivereasy from '../assets/img/projects/driverEasy.jpg'
+import drivereasy from '../assets/img/projects/drivereasy.jpg'
 import coffeehouse from '../assets/img/projects/coffeehouse.jpg'
 import dm from '../assets/img/projects/dm.jpg'
 import godofwar from '../assets/img/projects/godofwar.jpg'
