@@ -67,7 +67,7 @@ export const Form = ({ className, onCloseModal }: FormProps) => {
             {...register('name')}
           />
           <CollapsedElem condition={Boolean(errors.name)}>
-            {errors.name && (
+            {errors?.name && (
               <span className="text-red-600 pt-1 ">{errors.name.message}</span>
             )}
           </CollapsedElem>

@@ -2,7 +2,7 @@ import { ReactElement } from 'react'
 
 interface CollapsedElemProps {
   condition: boolean
-  children: ReactElement
+  children: ReactElement | undefined
 }
 export const CollapsedElem = ({ condition, children }: CollapsedElemProps) => {
   return (
