@@ -21,7 +21,7 @@ export const Hero = ({ className }: HeroProps) => {
         <div className="max-w-[460px] animatedLeft ">
           <h1 className="text-5xl max-w-[410px] mb-8 phone:text-5xl">
             <span>{t('Edgar is a ')}&nbsp;</span>
-            <span className="text-primary">{t('front-end developer')}</span>
+            <span className="text-primary">{t('full-stack developer')}</span>
           </h1>
           <span className="block mb-6 text-xl  ">
             {t(
