@@ -14,7 +14,7 @@ const Projects = () => {
           <span className="text-primary font-semibold">/</span>
           {t('projects')}
         </h1>
-        <span>{t('List of my projects')}</span>
+        <span className='phone:text-2xl'>{t('List of my projects')}</span>
       </div>
       <section className="mb-20 relative">
         <div className="max-w-7xl mx-auto px-16 phone:px-4">

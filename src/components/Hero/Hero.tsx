@@ -16,16 +16,16 @@ export const Hero = ({ className }: HeroProps) => {
   const { t } = useTranslation('')
 
   return (
-    <section className={twMerge('min-h-[calc(100vh-150px)]', className)}>
-      <div className="max-w-7xl mx-auto px-16 phone:px-4 flex justify-center items-center gap-x-24 gap-y-8 smallPhone:gap-y-16 flex-wrap ">
+    <section className={twMerge('min-h-[calc(100vh-150px)] ', className)}>
+      <div className="max-w-7xl mx-auto px-16 phone:px-4 flex justify-center items-center gap-x-24 gap-y-8 phone:gap-y-28 smallPhone:gap-y-36 flex-wrap ">
         <div className="max-w-[460px] animatedLeft ">
-          <h1 className="text-5xl max-w-[410px] mb-8 phone:text-3xl">
+          <h1 className="text-5xl max-w-[410px] mb-8 phone:text-5xl">
             <span>{t('Edgar is a ')}&nbsp;</span>
             <span className="text-primary">{t('front-end developer')}</span>
           </h1>
-          <span className="block mb-6 text-xl phone:text-base ">
+          <span className="block mb-6 text-xl  ">
             {t(
-              'He crafts responsive websites where technologies meet creativity'
+              'I build responsive websites that blend technology with creativity.'
             )}
           </span>
           <Modal>
@@ -36,7 +36,7 @@ export const Hero = ({ className }: HeroProps) => {
                   theme={ButtonTheme.PRIMARY}
                   className="phone:text-base"
                 >
-                  {t('Contact me')} !!
+                  {t('Contact me')} 
                 </Button>
               )}
             ></Modal.Open>

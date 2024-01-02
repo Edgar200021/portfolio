@@ -24,7 +24,7 @@ export const Header = () => {
   return (
     <header
       data-testid="header"
-      className="mb-16 min-h-[140px] phone:min-h-[50px] tablet:mb-8 headerAnimation"
+      className="mb-16 min-h-[140px] phone:min-h-[50px] tablet:mb-8 headerAnimation phone:mb-16"
     >
       <div className="max-w-7xl mx-auto px-16 flex justify-between gap-x-4 pt-8 h-full phone:items-center phone:px-4 phone:pt-4">
         <div className="z-40">

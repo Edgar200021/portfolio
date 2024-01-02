@@ -5,7 +5,7 @@ export const SupportMe = () => {
   const { t } = useTranslation()
   return (
     <article className="p-4 border-typography border-2">
-      <span className="text-white font-medium block mb-2">
+      <span className="text-white font-medium block mb-2 phone:text-xl">
         {t('Support me here')}
       </span>
       <span className="flex gap-2">

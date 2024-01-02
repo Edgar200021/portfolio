@@ -11,11 +11,11 @@ export const MessageMe = ({ className }: MessageMeProps) => {
   const { t } = useTranslation('')
 
   return (
-    <article className={twMerge('p-4 border-typography border-2', className)}>
-      <span className="block mb-4 text-white font-bold">
+    <article className={twMerge('p-4 border-typography border-2 ', className)}>
+      <span className="block mb-4 text-white font-bold phone:text-xl">
         {t('Message me here')}
       </span>
-      <ul className="space-y-2">
+      <ul className="space-y-2 phone:text-lg">
         <li className=" inline-flex items-center gap-2">
           <img src={discord} /> <span>edgar200023</span>
         </li>

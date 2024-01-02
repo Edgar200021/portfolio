@@ -9,7 +9,6 @@ import { Skills } from '../ui/Skills/Skills'
 import { SkillsTitle } from '../../types/skills'
 import { SKILLS } from '../../constants/constants'
 
-
 interface SkillsSectionProps {
   className?: string
   animated?: boolean
@@ -26,7 +25,7 @@ export const SkillsSection = ({ className, animated }: SkillsSectionProps) => {
     <section ref={skillsSectionRef} className={className}>
       <div className="max-w-7xl mx-auto px-16 phone:px-4">
         <SectionTitle className="mb-3 max-w-[400px]" title="skills" />
-        <div className="flex justify-between items-center flex-wrap  gap-14 tablet:justify-center">
+        <div className="flex justify-between items-center flex-wrap  gap-14 bigTablet:justify-center">
           <div
             className={twMerge(
               `relative max-w-[350px] h-[400px] w-full ${
@@ -75,6 +74,7 @@ export const SkillsSection = ({ className, animated }: SkillsSectionProps) => {
                   title={skillsTitle}
                   skills={skills}
                   theme={theme}
+                  className="phone:max-w-[196px]"
                 />
               )
             })}

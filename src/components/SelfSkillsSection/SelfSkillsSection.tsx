@@ -18,7 +18,7 @@ export const SelfSkillsSection = ({ className }: SelfSkillsSectionProps) => {
         <SectionTitle title="self-skills" className="mb-6" hidden={true} />
 
         <div className="flex justify-between gap-10 items-center flex-wrap tablet:justify-center">
-          <ul className="max-w-[600px] flex gap-4 flex-wrap tablet:justify-center">
+          <ul className="max-w-[600px] flex gap-4 flex-wrap tablet:justify-center phone:text-lg">
             {SELF_SKILLS.map(val => (
               <li
                 className="p-2 border-typography border-2 capitalize"

@@ -80,7 +80,7 @@ export const SKILLS: Record<
     skills: ['TypeScript', 'JavaScript'],
     theme: SkillsTheme.SMALL,
   },
-  frameworks: {
+  libraries: {
     skills: ['React'],
     theme: SkillsTheme.STANDARD,
   },
@@ -97,6 +97,9 @@ export const SKILLS: Record<
       'Storybook',
       'React Hook Form',
       'Framer Motion',
+      'NodeJs',
+      'Express',
+      'NestJs',
     ],
     theme: SkillsTheme.SMALL,
   },

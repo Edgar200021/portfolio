@@ -24,7 +24,7 @@ export const Skills = ({ title, skills, theme, className }: SkillsProps) => {
       <span className="capitalize block p-2 text-white font-bold border-typography border-b-2">
         {title}
       </span>
-      <ul className='flex flex-wrap items-center gap-2 p-2'>
+      <ul className='flex flex-wrap items-center gap-2 p-2 phone:text-lg'>
         {skills.map(skill => (
           <li key={skill}>{skill}</li>
         ))}

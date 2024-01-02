@@ -57,7 +57,7 @@ export const Project = ({
         <span className="block text-2xl font-medium text-white">
           {t(project.title)}
         </span>
-        <span className="block">{t(project.description)} </span>
+        <span className="block phone:text-lg">{t(project.description)} </span>
         <AppLink
           target="_blank"
           to={project.url}

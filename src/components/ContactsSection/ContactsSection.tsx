@@ -41,7 +41,7 @@ export const ContactsSection = ({
         <div className="flex justify-between flex-wrap gap-5 tablet:justify-center">
           <p
             className={twMerge(
-              `max-w-[450px] font-medium ${
+              `max-w-[450px] font-medium phone:text-lg ${
                 animated &&
                 'opacity-0 translate-x-[-1000px] transition-all duration-[2s] ease-in-out'
               }`,

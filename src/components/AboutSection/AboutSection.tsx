@@ -49,8 +49,8 @@ export const AboutSection = ({
               animated && aboutSectionVisible && ' opacity-1 translate-x-0 '
             )}
           >
-            <span className="block">{t('Hello, i’m Edgar!')}</span>
-            <span className="block">
+            <span className="block phone:text-lg">{t('Hello, i’m Edgar!')}</span>
+            <span className="block phone:text-lg">
               {t(
                 'I’m a self-taught front-end developer based in Gyumri, Armenia.'
               )}
@@ -59,7 +59,7 @@ export const AboutSection = ({
               )}
             </span>
 
-            <span className="block">
+            <span className="block phone:text-lg">
               {t(
                 'Transforming my creativity and knowledge into a websites has been my passion for over a year. I have helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.'
               )}

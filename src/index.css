@@ -64,6 +64,8 @@ button {
   user-select: none;
 }
 
+
+
 @keyframes rightToLeft {
   from {
     transform: translateX(1000px);
