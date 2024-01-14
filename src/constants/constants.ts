@@ -10,6 +10,7 @@ import drivereasy from '../assets/img/projects/drivereasy.jpg'
 import coffeehouse from '../assets/img/projects/coffeehouse.jpg'
 import dm from '../assets/img/projects/dm.jpg'
 import godofwar from '../assets/img/projects/godofwar.jpg'
+import adminPanel from '../assets/img/projects/admin-panel.png'
 
 import { Languages } from '../types/langSwitcher'
 import { ISocials } from '../types/socials'
@@ -39,12 +40,12 @@ export const PROJECTS: IProject[] = [
       'The site offers a user-friendly interface for exploring car leasing options, ensuring a seamless experience across various devices',
   },
   {
-    image: coffeehouse,
-    title: 'Coffee House',
-    tools: ['HTML', 'SASS', 'JavaScript'],
-    url: 'https://coffee-house.vercel.app/',
+    image: adminPanel,
+    title: 'Admin Panel',
+    tools: ['ReactJs', 'TypeScript', 'RTK Query', 'TailwindCss'],
+    url: 'https://admin-panel-rho-ten.vercel.app/',
     description:
-      'The site invites visitors into the cozy ambiance of the coffee experience, providing an intuitive interface to explore the menu, events, and ambiance',
+      'A feature-rich admin panel that not only serves its purpose effectively but also showcases my expertise in integrating modern technologies for optimal web development.',
   },
   {
     image: drivereasy,
@@ -61,6 +62,14 @@ export const PROJECTS: IProject[] = [
     url: 'https://god-of-war-wine.vercel.app/',
     description:
       'Embark on an epic journey with the God of War presentation, a homage to the iconic gaming saga.',
+  },
+  {
+    image: coffeehouse,
+    title: 'Coffee House',
+    tools: ['HTML', 'SASS', 'JavaScript'],
+    url: 'https://coffee-house.vercel.app/',
+    description:
+      'The site invites visitors into the cozy ambiance of the coffee experience, providing an intuitive interface to explore the menu, events, and ambiance',
   },
 ]
 
