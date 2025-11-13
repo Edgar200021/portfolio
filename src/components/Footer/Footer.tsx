@@ -23,7 +23,7 @@ export const Footer = () => {
                 easatryan2000@gmail.com
               </a>
             </span>
-            <span className="text-white phone:text-lg ">{t('Front-end developer')}</span>
+            <span className="text-white phone:text-lg ">{t('Full Stack developer')}</span>
           </div>
           <div>
             <span className="block mb-2 text-white font-medium text-2xl phone:text-center">

@@ -18,11 +18,7 @@ const Projects = () => {
       </div>
       <section className="mb-20 relative">
         <div className="max-w-7xl mx-auto px-16 phone:px-4">
-          <SectionTitle
-            title={'complete-apps'}
-            hidden={true}
-            className="mb-12"
-          />
+
           <ProjectList>
             {PROJECTS.map(project => (
               <Project key={project.title} project={project} />
@@ -36,32 +32,6 @@ const Projects = () => {
         <Frame
           theme={FrameTheme.NORMAL}
           className="absolute -right-14 -top-6 w-40 h-40 -z-10 tablet:hidden"
-        />
-      </section>
-      <section className="mb-44 relative">
-        <div className="max-w-7xl mx-auto px-16 phone:px-4">
-          <SectionTitle
-            title={'small-projects'}
-            hidden={true}
-            className="mb-12"
-          />
-          <ProjectList>
-            {PROJECTS.map(project => (
-              <Project key={project.title} project={project} />
-            ))}
-          </ProjectList>
-        </div>
-        <Frame
-          theme={FrameTheme.GRID}
-          className="absolute -right-4 top-28 phone:hidden -z-10"
-        />
-        <Frame
-          theme={FrameTheme.GRID}
-          className="absolute -left-12 bottom-8 phone:hidden -z-10"
-        />
-        <Frame
-          theme={FrameTheme.NORMAL}
-          className="absolute -left-20 -top-6 w-40 h-40 -z-10 tablet:hidden"
         />
       </section>
     </>
