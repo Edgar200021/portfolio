@@ -59,7 +59,7 @@ export const PROJECTS: IProject[] = [
 		image: drivereasy,
 		title: "Driver Easy",
 		tools: ["HTML", "SASS", "JavaScript"],
-		url: "https://astounding-bubblegum-04e109.netlify.app/",
+		url: "https://drivereasy.netlify.app/",
 		description:
 			"Developed an efficient and user-friendly application, Driver Easy, designed to simplify the driver management process.",
 	},
