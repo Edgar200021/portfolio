@@ -9,6 +9,7 @@ import coffeehouse from "../assets/img/projects/coffeehouse.jpg";
 import dm from "../assets/img/projects/dm.jpg";
 import drivereasy from "../assets/img/projects/drivereasy.jpg";
 import godofwar from "../assets/img/projects/godofwar.jpg";
+import xbox from "../assets/img/projects/xbox.png";
 import { SkillsTheme } from "../components/ui/Skills/Skills";
 import { Languages } from "../types/langSwitcher";
 import type { IProject } from "../types/projects";
@@ -28,6 +29,24 @@ export const SOCIALS: ISocials[] = [
 ];
 
 export const PROJECTS: IProject[] = [
+	{
+		image: xbox,
+		title: "Gaming Club",
+		tools: ["HTML", "SASS", "JavaScript"],
+		url: "https://exquisite-dieffenbachia-c2b9e9.netlify.app/",
+		description:
+			"A responsive and visually engaging gaming-themed website built with HTML, SASS, and JavaScript.",
+	},
+
+	{
+		image: dm,
+		title: "D&M Leasing",
+		tools: ["HTML", "SASS", "JavaScript"],
+		url: "https://enchanting-daifuku-044d95.netlify.app/",
+		description:
+			"The site offers a user-friendly interface for exploring car leasing options, ensuring a seamless experience across various devices",
+	},
+
 	{
 		image: adminPanel,
 		title: "Admin Panel",
